@@ -2,7 +2,7 @@
 - 网页课程设计的作品
 - 内容采用js生成，数据使用json格式
 - html+css+JavaScript <br>
-![logo](https://raw.githubusercontent.com/Guailoudou/web_music_mihoyo/main/img/yslogo.png)
+![logo](https://raw.githubusercontent.com/Guailoudou/web_music_mihoyo/main/img/yslogo.png)<br>
 数据样例
 ```
 var gydeta1 = [
