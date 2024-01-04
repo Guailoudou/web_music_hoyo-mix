@@ -21,3 +21,5 @@ var gydeta1 = [
     }
 ]
 ```
+示例网页 <br>
+![img](https://raw.githubusercontent.com/Guailoudou/web_music_mihoyo/main/PixPin_2024-01-04_11-32-28.png)
