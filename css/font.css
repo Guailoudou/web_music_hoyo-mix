@@ -1,0 +1,9 @@
+@import url("bootstrap-icons.css");
+@font-face {
+    font-family: 'ysfont';
+    src: url(../fonts/zh-cn.ttf);
+}
+* {
+    font-family: "ysfont";
+    font-weight: lighter;
+}
