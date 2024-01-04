@@ -2,8 +2,7 @@
 - 网页课程设计的作品
 - 内容采用js生成，数据使用json格式
 - html+css+JavaScript
-- 异步加载字体包
-<br>
+- 异步加载字体包<br>
 ![logo](https://raw.githubusercontent.com/Guailoudou/web_music_mihoyo/main/img/yslogo.png)<br>
 数据样例
 ```
