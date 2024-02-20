@@ -1,8 +1,8 @@
 @import url("bootstrap-icons.css");
 @font-face {
     font-family: 'ysfont';
-/*     src: url(../fonts/zh-cn.ttf); */
-    src: url(https://47.115.207.37:82/d/Onedrive/file/zh-cn.ttf);
+    /* src: url(../fonts/zh-cn.ttf); */
+    src: url(http://47.115.207.37:81/d/Onedrive/file/zh-cn.ttf);
 }
 * {
     font-family: "ysfont";

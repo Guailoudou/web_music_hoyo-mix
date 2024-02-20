@@ -2,7 +2,6 @@
 <html lang="zh">
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="shortcut icon" href="img/favicon.ico" type="image/x-icon">
     <link rel="stylesheet" href="css/style.css">
     <title>原音殿堂</title>
@@ -13,6 +12,10 @@
             <a href="index.html"><img src="img/yslogo.png" alt="logo" class="logo" width="50px"></a>
             <p class="logo tit">原音殿堂</p>
             
+            <ul class="list">
+                <a href="/ly/admin/"><li class="list">登录</li></a>
+                <a href="/ly/admin/?type=1"><li class="list">注册</li></a>
+            </ul>
         </div>
         <p class="bottle head ys">
             <i class="tit bi-list-ul"></i>
@@ -25,13 +28,18 @@
         </p>
     </header>
     <div class="zlist">
-        <noscript>本页面依赖于JavaScript，请允许运行JavaScript</noscript>
     </div>
     <footer class="foot">
-        <p class="tit foot"><i class="bi-person-badge"></i>Copyright © 2023 -by Guailoudou</p>
+        <p class="tit foot"><i class="bi-person-badge"></i>Copyright © 2024 Guailoudou</p>
     </footer>
     <div class="player">
         <img src="img/loading.gif">
+        <div class="container">
+            <span></span>
+            <span></span>
+            <span></span>
+            <span></span>
+        </div>
         <audio id="audio" src="" controls></audio>
     </div>
     <div class="open" onclick="openplay()">
