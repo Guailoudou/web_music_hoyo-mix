@@ -13,11 +13,23 @@ window.onload = function () {
     addLinkTag("css/font.css");
     audiologin();
 }
+var on = 0
 function audiologin(){
     const video = document.getElementById("audio");
     video.oncanplay = () => {
         var login = document.querySelector(".player img");
         login.style.display="none";
+        var yy = document.querySelector(".container");
+        yy.style.display="block";
+        on = 1;
+    };
+    video.onplay = () => {
+        var yy = document.querySelector(".container");
+        if(on==1)yy.style.display="block";
+    };
+    video.onpause = () => {
+        var yy = document.querySelector(".container");
+        yy.style.display="none";
     };
 }
 function addLinkTag(href){
@@ -33,6 +45,9 @@ function playMusic(url) {
     var audio = document.getElementById("audio");
     audio.src = url;
     audio.play();
+    on = 0;
+    var yy = document.querySelector(".container");
+    yy.style.display="none";
 }
 function closeplay() {
     audio1.play();
