@@ -103,7 +103,7 @@ function add(deta){
     block.innerHTML="";
     for (var i = 0; i < deta.length; i++){
         var asrc = deta[i].asrc;
-        asrc = "https://47.115.207.37:82/d/Onedrive/file/"+asrc; //公网部署时使用，302到OneDrive库提取文件
+        asrc = "https://alist.gldhn.top/d/Onedrive/file/"+asrc; //公网部署时使用，302到OneDrive库提取文件
         addblock(asrc,deta[i].img_src,deta[i].title,deta[i].text);
     }
 }
